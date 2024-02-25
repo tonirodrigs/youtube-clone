@@ -1,0 +1,96 @@
+.container {
+  width: 550px;
+  height: 40px;
+  border-radius: 100vw;
+  border: 1px solid hsl(0, 0%, 18.82%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.container input {
+  flex: 1;
+  padding: 0 15px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  height: 100%;
+}
+
+.search {
+  height: 100%;
+  width: 64px;
+  background-color: hsla(0,0%,100%,0.08);
+  border: none;
+  outline: none;
+  color: white;
+  border-left: 1px solid hsl(0, 0%, 18.82%);
+  transition: all .4s ease;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.search:hover, .mic:hover, .clear:hover {
+  cursor: pointer;
+  background-color: hsl(0, 0%, 18.82%);
+}
+
+.searchIcon {
+  font-size: 20px;
+  color: #f1f1f1;
+  margin-left: -2px;
+}
+
+.mic {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: hsla(0,0%,100%,0.08);
+  transition: all .4s ease;
+  position: absolute;
+  right: -55px;
+
+  border: none;
+  outline: none;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.micIcon {
+  font-size: 20px;
+  color: white;
+}
+
+.clear {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px 0px 0px 40px;
+
+  border: none;
+  outline: none;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  background-color: transparent;
+  transition: all .4s ease;
+
+  position: absolute;
+  right: 64px;
+}
+
+.clearIcon {
+  font-size: 18px !important;
+  color: white;
+  margin-left: 5px;
+}

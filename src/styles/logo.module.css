@@ -1,0 +1,44 @@
+.container {
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  width: fit-content;
+}
+
+.iconBox {
+  height: 100%;
+  width: 30px;
+  border-radius: 6px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 8px solid #FFF;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 4px;
+  letter-spacing: 0px;
+  transform: scaleY(1.5);
+}
+
+.country {
+  font-size: 10px;
+  font-weight: 400;
+  position: absolute;
+  color: #aaa;
+  z-index: 1;
+  right: -15px;
+  top: -5px;
+}

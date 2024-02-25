@@ -1,0 +1,23 @@
+.login {
+  color: #3ea6ff;
+  background-color: transparent;
+  border: 1px solid hsl(0, 0%, 18.82%);
+  border-radius: 100vw;
+  padding: 7px 15px;
+  transition: all .4s ease;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.login:hover{
+  cursor: pointer;
+  background-color: #3ea5ff3f;
+}
+
+.loginIcon {
+  font-size: 1.5rem;
+  margin-right: 5px;
+}
