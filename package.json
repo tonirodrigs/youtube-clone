@@ -1,0 +1,25 @@
+{
+  "name": "youtube-clone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": "https://github.com/tonirodrigs/youtube-clone.git",
+  "author": "Toni Rodrigues <justtoni.contact@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/next": "^9.0.0",
+    "@types/react": "^18.2.58",
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.20"
+  }
+}
